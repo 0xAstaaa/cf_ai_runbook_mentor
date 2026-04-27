@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "cf-ai-runbook-mentor",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-04-27",
+  "ai": {
+    "binding": "AI"
+  },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "COACH_SESSIONS",
+        "class_name": "CoachSession"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["CoachSession"]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "cf_ai_runbook_mentor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Cloudflare Workers AI chat app with Durable Object memory.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "dev:remote": "wrangler dev --remote",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit",
+    "cf-typegen": "wrangler types"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "latest",
+    "typescript": "latest",
+    "wrangler": "latest"
+  }
+}
