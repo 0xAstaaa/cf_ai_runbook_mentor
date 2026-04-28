@@ -66,14 +66,6 @@ Wrangler will deploy the Worker and create the SQLite-backed Durable Object clas
 - `POST /api/sessions/:sessionId/message` - send a chat message
 - `POST /api/sessions/:sessionId/reset` - clear session state
 
-## Repository naming
-
-For the assignment submission, create the GitHub repository with a name prefixed by `cf_ai_`, for example:
-
-```text
-cf_ai_runbook_mentor
-```
-
 ## Documentation references
 
 - Workers AI binding: https://developers.cloudflare.com/workers-ai/configuration/bindings/
